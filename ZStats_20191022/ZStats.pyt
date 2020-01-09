@@ -305,7 +305,7 @@ class ZonalStats(object):
 		except: arcpy.AddWarning("Warning: Script was successful. However, some temporary files may not have been removed.")
 
 		# Easter Egg
-		if  getpass.getuser() == "gabrielbellante":
+		if  getpass.getuser() == "nikolajokic":
 			try:
 				import ctypes
 				ctypes.windll.user32.SystemParametersInfoW(20, 0, r"C:\Windows\WinSxS\amd64_microsoft-windows-h..phicfirstrun.assets_31bf3856ad364e35_10.0.17134.1_none_50a5acde7a623f1c\Background_ForwardDirection_RoomScale.jpg" , 0)
